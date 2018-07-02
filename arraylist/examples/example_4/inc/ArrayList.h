@@ -37,6 +37,7 @@ struct ArrayList{
     void*   (*pop)();
     int     (*containsAll)();
     int     (*sort)();
+    int     (*funcionNueva)();
     struct ArrayList* (* clone)();
     struct ArrayList* (*subList)();
     int     (*deleteArrayList)();
@@ -44,6 +45,7 @@ struct ArrayList{
 }typedef ArrayList;
 #endif
 
+int al_funcionNueva();
 
 /** \brief Allocate a new arrayList with AL_INITIAL_VALUE elements.
  * \param void

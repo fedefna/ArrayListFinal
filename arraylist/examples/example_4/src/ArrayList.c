@@ -48,6 +48,7 @@ ArrayList* al_newArrayList(void)
             this->containsAll=al_containsAll;
             this->deleteArrayList = al_deleteArrayList;
             this->sort = al_sort;
+            this->funcionNueva = al_funcionNueva;
             returnAux = this;
         }
         else
@@ -59,6 +60,10 @@ ArrayList* al_newArrayList(void)
     return returnAux;
 }
 
+int al_funcionNueva(){
+    printf("asd");
+    return 4;
+}
 
 /** \brief  Add an element to arrayList and if is
  *          nessesary resize the array
